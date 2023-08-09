@@ -1,0 +1,18 @@
+.search {
+  flex: 0 0 100%;
+  max-width: 100%;
+
+  border-bottom: 1px solid #2f2d52;
+}
+
+.search input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding-left: 20px;
+  border: none;
+  outline-width: 0px;
+  height: 3em;
+  flex: 0 0 90%;
+  max-width: 90%;
+  color: lightgray;
+}

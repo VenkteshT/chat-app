@@ -1,0 +1,87 @@
+.input-container {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  padding: 0px 10px;
+  position: relative;
+  bottom: -10px;
+}
+
+.input-container input {
+  border: none;
+  height: 98%;
+  outline-width: 0px;
+  width: 55%;
+}
+
+.emojis {
+  position: relative;
+  font-size: 25px;
+  margin-left: 4%;
+}
+
+.emojis:hover {
+  cursor: pointer;
+}
+
+.input-container button {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  border: none;
+  width: 70px;
+  height: 35px;
+  border-radius: 4px;
+  background-color: #3940be;
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+  transition: all 0.2s ease-in;
+}
+
+.input-container button:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+.user-list {
+  background-color: white;
+  min-width: 100px;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 90px;
+  left: 20%;
+}
+.user-list p {
+  margin: 4px 0px;
+  padding: 5px 0px;
+  border: solid 1px gray;
+  border-radius: 4px;
+}
+
+.emoji-list {
+  position: absolute;
+  width: 170px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  right: 40%;
+  bottom: 90px;
+}
+
+.emoji-list p {
+  font-size: 24px;
+}
+
+.emoji-list p:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.chat {
+  flex: 0 0 69%;
+  max-width: 69%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ddddf7;
+  padding-right: 20px;
+}
+
+@media (max-width: 1100px) {
+  .chat {
+    flex: 0 0 62%;
+    max-width: 62%;
+  }
+  .chatIcons {
+    margin-right: 20% !important;
+  }
+}
+
+.chatInfo {
+  height: 50px;
+  background-color: #5d5b8d;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  justify-content: flex-end;
+  gap: 50%;
+  margin-left: 2px;
+}
+
+.chatInfo .chatIcons {
+  color: white;
+  margin-right: 20px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.chatInfo span {
+  color: white;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.chatIcons svg:hover {
+  cursor: pointer;
+}
+
+.messages {
+  padding: 0px 10px;
+  overflow-y: scroll;
+  margin-right: -18px;
+}
