@@ -16,8 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 6px 0px;
-  padding-right: 5px;
+  padding: 6px 5px;
 }
 
 .chat-message svg {
