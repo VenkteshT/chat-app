@@ -18,9 +18,9 @@
 }
 
 .emojis {
-  position: relative;
+  position: absolute;
   font-size: 25px;
-  margin-left: 4%;
+  right: 120px;
 }
 
 .emojis:hover {
